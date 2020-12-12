@@ -1,10 +1,10 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void)
 {
 	double celcius = 12.46;
 
-	printf("   ¼·¾¾(C)   È­¾¾(F)\n");
+	printf("   ì„­ì”¨(C)   í™”ì”¨(F)\n");
 	printf("------------------------\n");
 	printf("%8.2lf %8.2lf\n", celcius, 9.0 / 5 * celcius + 32);
 	celcius += 10;
