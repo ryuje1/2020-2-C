@@ -1,5 +1,3 @@
-git config --global gui.encoding utf-8
-
 #include <stdio.h>
 
 int main(void)
