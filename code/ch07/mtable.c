@@ -1,12 +1,12 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #define MAX 9
 
 int main(void)
 {
-	printf("=== ±¸±¸´Ü Ãâ·Â ===\n");
+	printf("=== êµ¬êµ¬ë‹¨ ì¶œë ¥ ===\n");
 	for (int i = 2; i <= MAX; i++)
 	{
-		printf("%6d´Ü Ãâ·Â\n", i);
+		printf("%6dë‹¨ ì¶œë ¥\n", i);
 		for (int j = 2; j <= MAX; j++)
 			printf("%d*%d = %2d ", i, j, i * j);
 		printf("\n");
