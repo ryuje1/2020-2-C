@@ -1,10 +1,12 @@
+git config --global gui.encoding utf-8
+
 #include <stdio.h>
 
 int main(void)
 {
 	double celcius = 12.46;
 
-	printf("   ¼·¾¾(C)   È­¾¾(F)\n");
+	printf("   ÅºË‡Å¾Å¾(C)   ÄŒÂ­Å¾Å¾(F)\n");
 	printf("------------------------\n");
 	printf("%8.2lf %8.2lf\n", celcius, 9.0 / 5 * celcius + 32);
 	celcius += 10;
